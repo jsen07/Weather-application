@@ -6,9 +6,9 @@ Third-party APIs allow developers to access their data and functionality by maki
 
 ## User Story
 
-AS A traveler
-I WANT to see the weather outlook for multiple cities
-SO THAT I can plan a trip accordingly
+- AS A traveler
+- I WANT to see the weather outlook for multiple cities
+- SO THAT I can plan a trip accordingly
 
 
 ## Acceptance Criteria
@@ -32,6 +32,9 @@ THEN I am again presented with current and future conditions for that city
 ## How to use
 [ https://jsen07.github.io/Weather-application/ ] -- Linked to deployed site
 
+To use the application the user inputs a city into the input box which then fetches the weather forecast data from that city from the OpenWeather API. The current day forecast along with a five day forecast will be displayed onto the screen. If the user inputs a city that does not exist in the api, an error will be thrown that is shown and tells the user that the city could not be found. Each time the user searches for a city, it will be stored into a recently searched list that stores all of the users recent searches. When the user leaves the application, the last searched foreacast along with the list of recent searches will persist on the page allowing users to view their last viewed forecast.
+
+
+
 ## Application
 ![image](https://user-images.githubusercontent.com/56829664/224166591-52adc169-192a-430a-9b4c-e73199bce509.png)
-
