@@ -1,11 +1,10 @@
 # 06 Server-Side APIs: Weather Dashboard
 
-##Project description
-
+## Project Description
+Third-party APIs allow developers to access their data and functionality by making requests with specific parameters to a URL. Developers are often tasked with retrieving data from another application's API and using it in the context of their own. The challenege is to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
 
 
 ## User Story
-
 
 AS A traveler
 I WANT to see the weather outlook for multiple cities
@@ -23,5 +22,16 @@ WHEN I view future weather conditions for that city
 THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
 WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
-```
+
+## Languages Used
+
+- HTML
+- CSS
+- Javascript/node.js
+
+## How to use
+[ https://jsen07.github.io/Weather-application/ ] -- Linked to deployed site
+
+## Application
+![image](https://user-images.githubusercontent.com/56829664/224166591-52adc169-192a-430a-9b4c-e73199bce509.png)
 
