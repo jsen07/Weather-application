@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&family=Mukta:wght@300&display=swap" rel="stylesheet">
+
+    <title>Weather Appliction</title>
+</head>
+<body>
+    <!-- MAIN CONTENT -->
+    <section class="weather-app">
+        <!-- HEADER/SEARCH BAR -->
+        <div class="weather-header">
+            <div class="title">
+            <h1> Weather </h1>
+        </div>
+            <div class="search-bar">
+            <div class="input-container">
+            <input type="text" class="search" id="search" name="fname" placeholder="Search location">
+            <button id="search-button" type="submit"></button>
+            </div>
+
+            <div class="span">
+                <span id="fail-load"></span>
+            </div>
+        </div>
+    </div>
+
+          <!-- CURRENT DAY WEATHER CONTENT -->
+        <div class="weather-main-content">
+
+            <div id="search-panel">
+                <h2 id="search-header">Recently searched: </h2>
+            </div>
+            
+            <div id="weather-info-container">
+             <div class="city-header">
+                <h1 id="city-name">Search for a city!</h1>
+                <h1 id="date0"></h1>
+            </div>
+                    
+                <div class="city-wrapper">
+                <div class="city-info">
+                    <p id="temp0"></p>
+                    <p id="wind0"></p>
+                    <p id="humidity0"></p>
+                </div>
+                <div class="icon-wrapper">
+
+                <div class="icon-container">
+                    <p id="main0"></p>
+                    <img src="" id="icon0"></img>
+                    <p id="description0"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+      <!-- FIVE DAY FORECAST CONTENT -->
+                <h1 id="five-day-title"> Five day forecast</h1>   
+            <div id="city-weather-container">
+                
+                        <div class="city">
+                            <h1 id="date1"></h1>
+                            <p id="temp1"></p>
+                            <p id="wind1"></p>
+                            <p id="humidity1"></p>
+                            <p id="main1"></p>
+                            <p id="description1"></p>
+                            <img id="icon1"></img>
+                        </div>
+                        <div class="city">
+                            <h1 id="date2"></h1>
+                            <p id="temp2"></p>
+                            <p id="wind2"></p>
+                            <p id="humidity2"></p>
+                            <p id="main2"></p>
+                            <p id="description2"></p>
+                            <img id="icon2"></img>
+                        </div>
+                        <div class="city">
+                            <h1 id="date3"></h1>
+                            <p id="temp3"></p>
+                            <p id="wind3"></p>
+                            <p id="humidity3"></p>
+                            <p id="main3"></p>
+                            <p id="description3"></p>
+                            <img id="icon3"></img>
+                        </div>
+                        <div class="city">
+                            <h1 id="date4"></h1>
+                            <p id="temp4"></p>
+                            <p id="wind4"></p>
+                            <p id="humidity4"></p>
+                            <p id="main4"></p>
+                            <p id="description4"></p>
+                            <img id="icon4"></img>
+                        </div>
+                        <div class="city">
+                            <h1 id="date5"></h1>
+                            <p id="temp5"></p>
+                            <p id="wind5"></p>
+                            <p id="humidity5"></p>
+                            <p id="main5"></p>
+                            <p id="description5"></p>
+                            <img id="icon5"></img>
+                        </div> 
+                    </div>
+                    <div>
+                        <p> Created by Jayssen De Castro </p>
+                    </div>
+                
+    </section>
+    <script src= "./assets/script.js"></script> </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+      integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>
