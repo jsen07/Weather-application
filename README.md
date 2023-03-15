@@ -27,7 +27,7 @@ Third-party APIs allow developers to access their data and functionality by maki
 
 - HTML
 - CSS
-- Javascript/node.js
+- Javascript
 
 ## How to use
 [ https://jsen07.github.io/Weather-application/ ] -- Linked to deployed site
